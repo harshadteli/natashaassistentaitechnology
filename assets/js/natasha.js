@@ -22,12 +22,12 @@ function wishme(){
         speak("Good Evening sir")
     }
 }
-function harshu(){
-    speak("Now to Introduced Myself I am Natasha A Virtual Artificial Intelligence and I am Assitent You with relative task With Best performance with fully operated system with version 2.043")
-}
+// function harshu(){
+//     speak("Now to Introduced Myself I am Natasha A Virtual Artificial Intelligence and I am Assitent You with relative task With Best performance with fully operated system with version 2.043")
+// }
  window.addEventListener('load',()=>{
     wishme()
-     harshu()
+     // harshu()
 })
 let speechRecognition=window.SpeechRecognition || window.webkitSpeechRecognition
 let recognition=new speechRecognition();
