@@ -1,0 +1,58 @@
+ body {
+    background-color: #000;
+    font-family: monospace;
+    color: #0f0;
+}
+
+.terminal {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.terminal-header {
+    background-color: #333;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+    display: flex;
+    align-items: center;
+}
+
+.natasha-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.terminal-header span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.terminal-body {
+    padding: 20px;
+}
+
+.command-line {
+    display: flex;
+    align-items: center;
+}
+
+.prompt {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.command {
+    font-size: 16px;
+}
+
+.output {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #333;
+}

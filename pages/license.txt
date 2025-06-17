@@ -1,0 +1,33 @@
+
+License Agreement for Natasha Virtual Assistant
+
+Copyright (c) [2025] HarshTech Organization. All rights reserved.
+
+License Terms
+
+1. Grant of License: HarshTech Organization grants you a non-exclusive, non-transferable license to use the Natasha Virtual Assistant software (the "Software") for personal and commercial purposes.
+2. Usage Restrictions: You may not:
+    - Modify, reverse-engineer, or decompile the Software.
+    - Use the Software for malicious purposes or to harm others.
+    - Distribute or sublicense the Software without prior written consent from HarshTech Organization.
+3. Intellectual Property: The Software is protected by copyright and other intellectual property laws. HarshTech Organization retains all rights, title, and interest in the Software.
+4. Disclaimer of Warranty: The Software is provided "as is" without warranty of any kind. HarshTech Organization disclaims all warranties, express or implied, including but not limited to implied warranties of merchantability and fitness for a particular purpose.
+5. Limitation of Liability: HarshTech Organization shall not be liable for any damages, including but not limited to incidental, consequential, or punitive damages, arising out of the use of the Software.
+6. Governing Law: This license agreement shall be governed by and construed in accordance with the laws of [India].
+7. Termination: This license agreement shall terminate immediately if you breach any of the terms and conditions.
+
+Contact Information
+
+If you have any questions or concerns about this license agreement, please contact HarshTech Organization at harshtech417@gmail.com.
+If you can contact with the https://harshadteli.github.io/contactharshtech/
+
+Acceptance
+
+By using the Natasha Virtual Assistant software, you acknowledge that you have read, understand, and agree to be bound by the terms and conditions of this license agreement.
+
+Natasha Virtual Assistant
+
+Developed by HarshTech Organization.
+
+Founder:Harshad Teli.
+

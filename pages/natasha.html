@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Harshad Sanjay Teli">
+    <link rel="stylesheet" type="text/css" href="../assets/css/natasha.css" />
+    <link rel="shortcut icon" href="../assets/images/Natasha.jpg" type="image/x-icon">
+    <title>Natasha</title>
+    <style type="text/css">
+
+    </style>
+
+</head>
+
+<body>
+    <div class="popup-container" id="popup-container">
+        <div class="popup">
+            <div class="popup-header">
+                <h2>Virtual Assistant Natasha</h2><br>
+                <h3></h3>
+                <button class="close-btn" id="close-btn">&times;</button>
+            </div>
+            <div class="popup-content">
+                <div class="typing-effect" id="typing-effect"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="hero">
+        <div class="container">
+            <div class="clock">
+                <span id="hrs">00</span>
+                <span>:</span>
+                <span id="min">00</span>
+                <span>:</span>
+                <span id="sec">00</span>
+            </div>
+        </div>
+    </div>
+    <script>
+        let hrs = document.getElementById("hrs");
+        let min = document.getElementById("min");
+        let sec = document.getElementById("sec");
+
+        // console.log(currentTime); 
+        //  console.log(currentTime.getMinutes());
+        setInterval(() => {
+            let currentTime = new Date();
+            hrs.innerHTML = (currentTime.getHours() < 10 ? "0" : "") + currentTime.getHours();//Condition will apply for 01,02
+            min.innerHTML = (currentTime.getMinutes() < 10 ? "0" : "") + currentTime.getMinutes();
+            sec.innerHTML = (currentTime.getSeconds() < 10 ? "0" : "") + currentTime.getSeconds();
+        }, 1000);
+
+    </script>
+    <center><video id="video" src="../assets/aiinterface/v1.mp4" height="350px" muted autoplay loop></center>
+    <center>
+        <h1>I'm <span id="name">Natasha</span> Your <span id="va">Virtual Assistant</span></h1>
+    </center><br>
+    <center><img src="../assets/images/Voice_animation.gif" alt="loading" id="voice"></center>
+    <center><button onclick="changevideo()" id="btn">
+            <img id="bola" src="../assets/images/Miyke2.png" height="35px">
+            <span id="content">
+                Click Here To Talk to Me</span></button></center><br><br>
+    <center><button style="background-color: black;border-radius: 50%;" onclick="changevideo1()">
+            <img style="height: 70px;" id="mute" src="../assets/images/m1.jpg" alt="E404">
+        </button></center>
+    <audio id="muta" src="../assets/aitechnology/4.mp3" preload="auto"></audio>
+    <script>
+        const mutebtn = document.getElementById("mute");
+        const muteaud = document.getElementById("muta")
+        mutebtn.addEventListener('click', () => {
+            muteaud.play();
+        });
+        function changevideo() {
+            var vid = document.getElementById('video');
+            vid.src = "../assets/aiinterface/v2.mp4";
+        }
+        function changevideo1() {
+            var vid = document.getElementById('video');
+            vid.src = "../assets/aiinterface/v1.mp4";
+        }
+    </script>
+    <!-- <input type="button" name="audiobutton" value="click me"  id="btn"/> -->
+    <script>
+        let play = document.getElementById("btn");
+        function playmusic() {
+            let audio = new Audio("../assets/aitechnology/5.mp3");
+            audio.play();
+        }
+        play.addEventListener("click", playmusic);
+    </script>
+    <br><br><br>
+    <footer>
+        <center>
+            <h3>&copy; 2025 HarshTech Organization . All rights reserved </h3>
+        </center>
+
+    </footer><br><br>
+
+    <script src="../assets/js/natasha.js"></script>
+    <script src="../assets/js/prevent.js"></script>
+
+
+</body>
+
+</html>
