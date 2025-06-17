@@ -99,7 +99,7 @@ A: Natasha can perform various tasks, such as answering questions, opening web t
 
 ## Feedback
 * You can submit your form about our technology through below link
-* Feedback: [https://natashfeedback.org](https:/harshadteli.github.io/feedbackformgithub/)
+* Feedback: [https://natashfeedback.org](https://harshadteli.github.io/feedbackformgithub/)
 
 ## Deployment
 * This project is deployed on GitHub Pages by HarshTech Organization.
